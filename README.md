@@ -60,8 +60,8 @@
 ## 实践
 
 - `DemoViewModel.kt` - 它是根据官方文档中 [在 Compose 中管理状态](https://developer.android.com/jetpack/compose/state#managing-state) 的介绍，实现的一个普通"状态容器"类。并非真正意义上的 "ViewModel"。
-- `GenericViewModel.kt` - 它是根据(How to write your own MVI library and why you shouldn't
-  )[https://www.youtube.com/watch?v=E6obYmkkdko]的介绍，实现的一个简单通用 MVI 框架。它的实现仅仅用了不到 30 行的代码。推荐官方实现的 MVI 框架 [orbit-mvi](https://github.com/orbit-mvi/orbit-mvi) 。
+- `GenericViewModel.kt` - 它是根据[How to write your own MVI library and why you shouldn't
+  ](https://www.youtube.com/watch?v=E6obYmkkdko)的介绍，实现的一个简单通用 MVI 框架。它的实现仅仅用了不到 30 行的代码。推荐官方实现的 MVI 框架 [orbit-mvi](https://github.com/orbit-mvi/orbit-mvi) 。
 
 ## 总结
 
