@@ -13,5 +13,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "demo-desktop-by-mvi"
+rootProject.name = "learn-mvi"
 

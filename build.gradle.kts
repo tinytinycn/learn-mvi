@@ -1,6 +1,5 @@
-import org.jetbrains.compose.compose
+
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("multiplatform")
@@ -38,7 +37,7 @@ compose.desktop {
         mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "demo-desktop-by-mvi"
+            packageName = "learn-mvi"
             packageVersion = "1.0.0"
         }
     }
