@@ -13,29 +13,49 @@
 ## MVI 框架
 
 * mvi 框架
-![mvi-arch](img/mvi-arch.png)
+  ![mvi-arch](img/mvi-arch.png)
 
-* android mvi 框架
-![android-mvi-arch](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-ui.png)
+* android 推荐应用框架
+  <details><summary>图片🖼️</summary>
+  
+  ![android-mvi-arch](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-ui.png)
+  
+  </details>
 
-* 单向数据流在 mvi 框架中的应用
-![UDF-in-mvi-arch](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-ui-udf.png)
+* 单向数据流在框架中的应用
+  <details><summary>图片🖼️</summary>
+  
+  ![UDF-in-mvi-arch](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-ui-udf.png)
+  
+  </details>
 
 * UDF 在应用架构中的运作方式图示。
-![udf-in-action](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-ui-udf-in-action.png)
-
-> 状态向下流动、事件向上流动的这种模式称为单向数据流 (UDF)。这种模式对应用架构的影响如下：
-> - ViewModel 会存储并公开界面要使用的状态。界面状态是经过 ViewModel 转换的应用数据。
-> - 界面会向 ViewModel 发送用户事件通知。
-> - ViewModel 会处理用户操作并更新状态。
-> - 更新后的状态将反馈给界面以进行呈现。
-> - 系统会对导致状态更改的所有事件重复上述操作。
+  <details><summary>图片🖼️</summary>
+  
+  ![udf-in-action](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-ui-udf-in-action.png)
+  
+  </details>
+  
+  > 状态向下流动、事件向上流动的这种模式称为单向数据流 (UDF)。这种模式对应用架构的影响如下：
+  > - ViewModel 会存储并公开界面要使用的状态。界面状态是经过 ViewModel 转换的应用数据。
+  > - 界面会向 ViewModel 发送用户事件通知。
+  > - ViewModel 会处理用户操作并更新状态。
+  > - 更新后的状态将反馈给界面以进行呈现。
+  > - 系统会对导致状态更改的所有事件重复上述操作。
 
 * 状态管理
-![state-holder](https://developer.android.com/static/images/jetpack/compose/state-dependencies.svg)
+  <details><summary>图片🖼️</summary>
+  
+  ![state-holder](https://developer.android.com/static/images/jetpack/compose/state-dependencies.svg)
+  
+  </details>
 
 * 逻辑层级
-![logic-hierarchy](https://developer.android.com/static/images/topic/architecture/ui-layer/logic-hierarchy.png)
+  <details><summary>图片🖼️</summary>
+  
+  ![logic-hierarchy](https://developer.android.com/static/images/topic/architecture/ui-layer/logic-hierarchy.png)
+  
+  </details>
 
 ## 实践
 
