@@ -1,4 +1,3 @@
-
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
@@ -26,6 +25,12 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementation(compose.desktop.currentOs)
+                // https://mvnrepository.com/artifact/moe.tlaster/precompose
+                implementation("moe.tlaster:precompose:1.3.13")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.6.4")
+                // https://mvnrepository.com/artifact/moe.tlaster/precompose-molecule
+                implementation("moe.tlaster:precompose-molecule:1.3.13")
+                implementation("app.cash.molecule:molecule-runtime:0.6.1")
             }
         }
         val jvmTest by getting

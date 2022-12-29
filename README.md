@@ -62,6 +62,7 @@
 - `DemoViewModel.kt` - 它是根据官方文档中 [在 Compose 中管理状态](https://developer.android.com/jetpack/compose/state#managing-state) 的介绍，实现的一个普通"状态容器"类。并非真正意义上的 "ViewModel"。
 - `GenericViewModel.kt` - 它是根据[How to write your own MVI library and why you shouldn't
   ](https://www.youtube.com/watch?v=E6obYmkkdko)的介绍，实现的一个简单通用 MVI 框架。它的实现仅仅用了不到 30 行的代码。推荐官方实现的 MVI 框架 [orbit-mvi](https://github.com/orbit-mvi/orbit-mvi) 。
+- `ComposableViewModel.kt` - 对比了采用一种常规的状态容器类和另一种[Composable可组合方式](https://juejin.cn/post/7141269750277439496)的状态Presenter类的方式，进行状态管理。在 `CounterComponent.kt` 中还使用了 [Molecule](https://github.com/cashapp/molecule) 将可组合方式的Presenter Composable 函数运行在不同的 Composition 上。你还可以进一步使用 [PreCompose](https://github.com/Tlaster/PreCompose/blob/master/docs/component/molecule.md) 对 Molecule 的集成方案。
 
 ## 总结
 
